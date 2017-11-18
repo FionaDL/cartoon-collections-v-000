@@ -18,11 +18,11 @@ def long_planeteer_calls(calls)# code an argument here
   end
 end
 
-def find_the_cheese(something)# code an argument here
+def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
-  something.include? do |object|
+  array.include? do |object|
      if object== any?.cheese_types
-       cheese_types[]
+       
      end
     end
 end
