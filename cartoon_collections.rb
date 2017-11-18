@@ -20,6 +20,8 @@ end
 
 def find_the_cheese(something)# code an argument here
   something.include? do |object|
-    return true if object== "cheddar" || "gouda" || "camembert"
+     if object== "cheddar" || "gouda" || "camembert"
+       true
+     end
     end
 end
