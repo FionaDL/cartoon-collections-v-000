@@ -21,8 +21,8 @@ end
 def find_the_cheese(something)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   something.include? do |object|
-     if object== cheese_types
-       cheese_types
+     if object== any?.cheese_types
+       cheese_types[]
      end
     end
 end
